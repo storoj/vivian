@@ -1,0 +1,86 @@
+.jquery-checkbox       {display: inline; font-size: 20px; line-height: 20px; cursor: pointer; cursor: hand;}
+.jquery-checkbox .mark {display: inline;}
+
+.jquery-checkbox img {/*vertical-align: middle;*/ width: 20px; height: 20px;}
+.jquery-checkbox img{background: transparent url(checkbox.png) no-repeat;}
+
+.jquery-checkbox img {display: block; float: left;}
+
+.b-checkbox__label {
+	vartical-align: top;
+	position: relative;
+	top: 2px;
+}
+
+/*
+.jquery-checkbox img{
+	background-position: 0px 0px;
+}
+.jquery-checkbox-hover img{
+	background-position: 0px 0px;
+}
+.jquery-checkbox-checked img{
+	background-position: -49px 0px;
+}
+.jquery-checkbox-checked .jquery-checkbox-hover img {
+	background-position: -49px 0px;
+}
+
+.jquery-checkbox-disabled img{
+	background-position: 0px 0px;
+}
+.jquery-checkbox-checked .jquery-checkbox-disabled img{
+	background-position: 0px -98px;
+}
+*/
+
+input[type="radio"] + .jquery-checkbox img {
+	background-position: 0 -210px; 
+}
+
+input[type="radio"] + .jquery-checkbox-hover img {
+	background-position: 0 -210px; 
+}
+
+input[type="radio"] + .jquery-checkbox-checked img {
+	background-position: 0 -280px; 
+}
+
+input[type="radio"] + .jquery-checkbox-checked .jquery-checkbox-hover img {
+	background-position: 0 -280px; 
+}
+
+input[type="radio"] + .jquery-checkbox-disabled img {
+	background-position: 0 -350px;
+}
+
+input[type="radio"] +.jquery-checkbox-checked .jquery-checkbox-disabled img {
+	background-position: 0 -350px;
+}
+
+
+/* */
+
+input[type="checkbox"] + .jquery-checkbox img {
+	background-position: 0 0;
+}
+
+input[type="checkbox"] + .jquery-checkbox-hover img {
+	background-position: 0 0;
+}
+
+input[type="checkbox"] + .jquery-checkbox-checked img {
+	background-position: 0 -70px;
+}
+
+input[type="checkbox"] + .jquery-checkbox-checked .jquery-checkbox-hover img {
+	background-position: 0 -70px;
+}
+
+input[type="checkbox"] + .jquery-checkbox-disabled img {
+	background-position: 0 -140px;
+}
+
+input[type="checkbox"] +.jquery-checkbox-checked .jquery-checkbox-disabled img {
+	background-position: 0 -140px;
+}

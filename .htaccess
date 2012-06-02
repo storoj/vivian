@@ -1,0 +1,10 @@
+AddDefaultCharset UTF-8
+
+RewriteEngine On
+Options +FollowSymlinks
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^([^/]*)/?(.*)$ index.php?action=$1&query=$2 [L,QSA]
+
+php_value display_errors On

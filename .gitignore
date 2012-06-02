@@ -1,0 +1,6 @@
+.idea
+*.rar
+error.log
+files/avatar/*
+files/projects/*
+files/tmp/*

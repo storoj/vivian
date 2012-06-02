@@ -1,0 +1,9 @@
+AddDefaultCharset UTF-8
+
+RewriteEngine on
+Options +FollowSymlinks
+RewriteBase /admin/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^/]*)/?(.*)$ /admin/index.php?action=$1&query=$2 [L,QSA]
+
+php_value display_errors Off
